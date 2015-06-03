@@ -100,12 +100,11 @@ int main(int argc, char *argv[])
                     ans[i] = row[i];
                 }
                 ans[strlen(row)] = '\0';
-                printf("%s\n", ans);
                 len=strlen(row);
             
         }
     }
-    //printf("%s\n", ans);
+    printf("%s\n", ans);
     fclose( fp1 );
     return EXIT_SUCCESS;
 }
