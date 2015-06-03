@@ -31,7 +31,7 @@ void ToLower(char x[ ], int n)
 
 int main(int argc, char *argv[])
 {
-    FILE *fp1, *fp2;
+    FILE *fp1;
     char *word;
     char row[16];
     char ans[16];
@@ -54,7 +54,7 @@ int main(int argc, char *argv[])
             strcat(word,argv[2]);
         }
         else{
-            printf("文字を入力してください\n");
+            printf("エラー\n");
             exit(1);
 
         }
